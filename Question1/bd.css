@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 34%;
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+    color: #da5757;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.logo img {
+    width: 30%;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    box-shadow: 0px 7px 6px #772121;
+}
+
+.nav-list {
+    width: 80%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 16px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #da5757;
+    font-size: 16px;
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: white;
+    /* transition: .2s; */
+}
+
+.rightnav {
+    background-color: black;
+    width: 20%;
+    padding-left: 7%;
+}
+
+#search {
+    padding: 3px;
+    border: 3px solid;
+    border-radius: 7px;
+    border-color: #d01d32;
+}
+
+.btn-sm {
+    border: 2px solid;
+    border-radius: 4px;
+    color: #d01d32;
+    cursor: pointer;
+}
+
+.background-firstsection {
+    background-color: #dd0b24a4;
+    background-size: cover;
+    height: 750px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 88%;
+    margin: auto;
+    height: 95%;
+}
+
+.firsthalf {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Zen Antique Soft', serif;
+
+}
+
+.secondhalf {
+    width: 50%;
+
+}
+
+.secondhalf img {
+    width: 70%;
+    margin-left: 91px;
+    border: 4px solid #f1e9e9;
+    border-radius: 49px;
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.text-small li {
+    font-size: 20px;
+}
+
+.top {
+    font-size: 26px;
+    padding: 19px 0px 0px 0px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.video {
+    font-size: 21px;
+    color: #b70e0e;
+    font-weight: bolder;
+}
+
+
+                                          /* Second Section */
+
+.background-secondsection {
+    height: 850px;
+    background-size: cover;
+    background-color:#dd0b24a4;
+    margin-top: -14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.first-line {
+    padding-right: 84px;
+}
+
+.first-heading {
+    padding: 24px 0px 0px 57px;
+    font-size: 29px;
+}
+
+.heading {
+    padding: 21px 0px 3px 32px;
+    font-size: 44px;
+    padding-top: 67px;
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+.first-para {
+    padding: 0px 0px 0px 122px;
+    font-size: 18px;
+    font-family: 'Zen Antique Soft', serif;
+}
+
+.point {
+    padding: 13px 0px 0px 126px;
+    font-size: 18px;
+    font-family: 'Zen Antique Soft', serif;
+}
+
+.second-heading {
+    padding: 24px 0px 0px 57px;
+    font-size: 29px;
+}
+
+
+
+                                                /* third section */
+
+
+
+
+.background-thirdsection {
+    height: 850px;
+    background-color: #dd0b24a4;
+    background-size: cover;
+    margin-top: -14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.heading {
+    margin-top: 14px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.heading1 {
+    font-size: 27px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+
+.option {
+    border: 3px solid black;
+    border-radius: 9px;
+    max-width: 622px;
+    margin: auto;
+    margin-top: 49px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #e7bfbf;
+    font-family: 'Zen Antique Soft', serif;
+}
+
+.box1 {
+    padding: 16px;
+}
+
+.box1 input {
+    padding: 7px;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 12px;
+    background-color: #ed9696;
+    color: black;
+    font-weight: bolder;
+}
+
+#int input {
+    padding-right: 49px;
+    padding-left: 65px;
+}
+
+.str input {
+    padding-right: 72px;
+}
+
+.float input {
+    padding-left: 15px;
+}
+
+
+.box2 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.box2_1 {
+    margin-top: 14px;
+    margin-bottom: 9px;
+    padding: 10px 100px 8px 98px;
+    border: 3px solid black;
+    border-radius: 21px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #ed9696;
+}
+
+.box2_1:hover {
+    /* color: white; */
+    background-color: #da5757;
+}
+
+
+
+
+
+@media only screen and (max-width: 1140px) {
+
+                                                /* first section */
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .rightnav {
+        padding-left:8px;
+    }
+
+    .secondhalf img {
+        width: 78%;
+        margin-left: 42px;
+    }
+
+    .text-small {
+        font-size: 14px;
+    }
+
+    .text-small li {
+        font-size: 14px;
+    }
+
+    .top {
+        font-size: 17px;
+    }
+
+    .background-firstsection {
+        height: 800px;
+        width: 150%;
+    }
+
+    .navbar {
+        position: relative;
+        width: 150%;
+    }
+
+                                                /* second section */
+
+    .background-secondsection {
+        height: 950px;
+        width: 150%;
+    }
+
+    .first-para {
+        font-size: 14px;
+        padding: 0px 0px 0px 58px;
+    }   
+
+    
+    .point {
+        font-size: 14px;
+        padding: 13px 0px 0px 58px;
+    }
+    
+
+                                            /* third section */
+
+    .background-thirdsection {
+        height: 862px;
+        width: 150%;
+    }
+
+    .option{
+        font-size: 20px;
+        max-width: 542px;
+    }
+    
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bd.css">
+    <title>hello</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="img1.jpg" alt="logo">uni <br> blood donation</div>
+            <li> <a href="#sectionA">HOME</a></li>
+            <li> <a href="#sectionB">ABOUT</a></li>
+            <li> <a href="#sectionC">DONOR REGISTRATION</a></li>
+            <li> <a href="#">LOG IN</a></li>
+            <li> <a href="#">CONTACT US</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">search</button>
+        </div>
+    </nav>
+
+    <section class="background-firstsection" id="sectionA">
+        <div class="box-main">
+            <div class="firsthalf">
+                <h2 class="top">Why Donate Blood!</h2>
+                <p class="text-small">Blood is the most precious gift that anyone can give to another person the gift of
+                    life. A decision to donate your blood can save a life, or even several if your blood is separated
+                    into its components red cells, platelets and plasma which can be used individually for patients with
+                    specific conditions.</p>
+                <h2 class="top">Who Can Donate Blood!</h2>
+                <p class="text-small">Below are some basic eligibility guidelines: Age: You are aged between 18 and 65.
+                    * In some countries national legislation permits 16-17 year-olds to donate provided that they fulfil
+                    the physical and hematological criteria required and that appropriate consent is obtained.</p>
+                <h2 class="top">How To Donate Blood!</h2>
+                <p class="text-small">
+                <ul class="text-small">
+                    <li>Medical Check up (5 Mins) Donors Medical History & life style is asked, check up of temperature,
+                        blood pressure, pulse and haemoglobin.</li>
+                    <li>Donation (8 Mins) Phlebotomist draws unit (350ml/450ml) of blood.</li>
+                    <li>Refreshment (10 Mins).</li>
+                </ul>
+                <a class="video" href="https://www.youtube.com/watch?v=ho1Dk20ZF-g&ab_channel=sayaaniladki">click
+                    here</a>
+                </p>
+            </div>
+            <div class="secondhalf">
+                <img src="img4.jpg" alt="laptop image">
+                <img src="img3.jpg" alt="laptop image">
+                
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+
+    <section class="background-secondsection" id="sectionB">
+        <div class="first-line">
+            <h1 class="heading">About Us..</h1>
+            <p class="first-para">You agree to have blood drawn so that it can be given to someone who needs a blood
+                transfusion.Millions of people need blood transfusions each year. Some may need blood during surgery.
+                Others depend on it after an accident or because they have a disease that requires certain parts of
+                blood.
+                Blood donation makes all of this possible. There is no substitute for human blood — all transfusions use
+                blood
+                from a donor.</p>
+            <p class="first-para">Most healthy adults can donate a pint (about half a liter) safely, without health
+                risks. Within a few days of a blood donation, your body replaces the lost fluids. And after two weeks,
+                your body replaces the lost red blood cells.</p>
+
+        </div>
+        <div class="second-line">
+            <h3 class="first-heading">Features</h3>
+            <ul class="point">
+                <li>Blood Collection Management</li>
+                <li>Blood Issue Management</li>
+                <li>Inventory Management</li>
+                <li>Stock Management</li>
+                <li>Camp Management</li>
+                <li>User and System Management</li>
+            </ul>
+            <h3 class="second-heading">Advantages</h3>
+            <ul class="point">
+                <li>State & Blood Bank dashboard to provide the group wise blood stocks status for all stakeholders..
+                </li>
+                <li>Dashboards for Blood Bank Officers (Tested/ Untested/ Buffer stock of blood units)..</li>
+                <li>Distribution of blood from mother blood banks to blood storage centers..</li>
+                <li>Recruitment and retention of the regular blood donors in the state..</li>
+                <li>Maintain all the registers according to Drugs & Cosmetic Act of 1940..</li>
+                <li>Inventory of kits and consumables with alert for short expiry..</li>
+                <li>Alert mechanism for License, regular donors, organization to do VBD Camps..</li>
+                <li>Provides a paperless donor room..</li>
+                <li>Real time information form collection to testing and use of blood and blood products..</li>
+                <li>Unique bar coding for each blood packets..</li>
+                
+            </ul>
+        </div>
+    </section>
+    <hr>
+
+    <section class="background-thirdsection" id="sectionC">
+        <div class="register-box">
+            <p class="heading">UNI BLOOD DONATION</p>
+            <P class="heading1">Register as a blood donor</P>
+            <form action="backend.php" class="option">
+                <div class="box1">
+                    Full Name : <input type="text" placeholder="First Name"> <input type="text" placeholder="Last Name">
+                </div>
+                <div class="box1"  id="float">
+                    Eligibile : Yes<input type="checkbox"> No<input type="checkbox"> 
+                </div>
+                <div class="box1">
+                    Date Of Birthday : <input type="date" placeholder="Date">
+                </div>
+                <div class="box1">
+                    Blood Group : <input type="text">
+                    <!-- <details>
+                        <summary> Blood Group :<input type="text"></summary>
+                        <p>A</p>
+                        <P>B</P>
+                        <P>C</P>
+                    </details> -->
+                </div>
+                <div class="box1" id="int">
+                    Last Donate Date : <input type="Date" >
+                </div>
+                <div class="box1" id="str">
+                    Phone Number : <input type="contact">
+                </div>
+                <div class="box1">
+                    Address : <input type="text">
+
+                </div>
+                <div class="box2">
+                    <button class="box2_1">
+                        reset
+                    </button>
+                    <button class="box2_1">
+                        submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
